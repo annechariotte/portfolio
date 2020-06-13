@@ -133,3 +133,17 @@
 .singature {
     max-height: 40px;
 }
+
+.wip {
+    font-size: 300px;
+    text-align: center;
+}
+
+.wip-subtitle {
+    text-align: center;
+    margin-left: -56px;
+    font-size: 20px;
+    margin-top: -50px;
+    font-weight: 600;
+}
+}
