@@ -36,12 +36,16 @@
     min-width: 400px;
 }
 
-.profil-pic.rainbow {
-    display: none;
+.cv {
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 50px;
+    font-weight: 600;
+    text-decoration: none;
 }
 
-.profil-pic.rainbow:hover {
-    display: block;
+.cv a {
+    text-decoration: none;
 }
 
 .portfolio-text {
