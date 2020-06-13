@@ -1,1 +1,130 @@
 /* your styles go here */
+.item-end {
+    text-align: end;
+}
+
+.profil-pic {
+    min-width: 400px;
+}
+
+.profil-pic.rainbow {
+    display: none;
+}
+
+.profil-pic.rainbow:hover {
+    display: block;
+}
+
+.portfolio-text {
+    margin: 5rem auto;
+}
+
+.project-subtitle,
+.project-title,
+.competence-subtitle,
+.competence-title {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.project-title {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.services .icon {
+    margin-bottom: 0;
+}
+
+.project-subtitle,
+.competence-subtitle {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.07em;
+}
+
+.project-link {
+    color: dimgray;
+}
+
+.project-link:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.project-link:hover .badge-secondary {
+    background-color: black;
+}
+
+.project-link:hover .badge-html {
+    background-color: #E54D26;
+}
+
+.project-link:hover .badge-css {
+    background-color: #3D8FC6;
+}
+
+.project-link:hover .badge-php {
+    background-color: #6180B6;
+}
+
+.project-link:hover .badge-bootstrap {
+    background-color: #59407F;
+}
+
+.project-link:hover .badge-wordpress {
+    background-color: #003C56;
+}
+
+.project-link:hover .badge-js {
+    background-color: #F0DB4E;
+}
+
+.project-link:hover .badge-angular {
+    background-color: #C4473A;
+}
+
+.project-link:hover .badge-elementor {
+    background: linear-gradient(0.25turn, #312670, #e6285b);
+}
+
+.project-link:hover .badge-pantheon {
+    background-color: #EFD01B;
+}
+
+.project-link:hover .badge-p5 {
+    background-color: #ED225C;
+}
+
+.project-link:hover .badge-node {
+    background-color: #689F63;
+}
+
+.project-link:hover .badge-figma {
+    background: linear-gradient(0.25turn, #EC4C1E, #F86E5E, #9E56F8, #1AB7F6, #0AC87F);
+}
+
+.badge-div {
+    min-height: 48px;
+}
+
+.badge {
+    padding: 0.25em 1em;
+}
+
+.project-text {
+    margin: 1rem auto;
+}
+
+section#services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.icon img {
+    max-height: 45px;
+    margin-bottom: 16px;
+}
+
+.singature {
+    max-height: 40px;
+}
