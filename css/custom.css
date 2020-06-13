@@ -37,15 +37,18 @@
 }
 
 .cv {
-    text-align: center;
-    margin-left: 45px;
     margin-top: 50px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 300;
     text-decoration: none;
 }
 
 .cv a {
     text-decoration: none;
+}
+
+.cv a:hover {
+    font-weight: 600;
 }
 
 .portfolio-text {
