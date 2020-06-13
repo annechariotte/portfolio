@@ -218,7 +218,7 @@ MAP SECTION
 *
 */
 #map {
-  height: 400px;
+  height: 370px;
 }
 
 .map-custom-popup .leaflet-popup-content-wrapper {
@@ -274,7 +274,8 @@ CONTACT SECTION
 
 p.social {
   text-align: center;
-  margin: 0 auto;
+  margin-top: 5px;
+  margin-left: 60px;
 }
 
 p.social a {
