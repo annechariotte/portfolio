@@ -218,7 +218,7 @@ MAP SECTION
 *
 */
 #map {
-  height: 370px;
+  height: 240px;
 }
 
 .map-custom-popup .leaflet-popup-content-wrapper {
