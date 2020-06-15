@@ -1,7 +1,17 @@
 /* your styles go here */
-.container-90 {
-    width: 90%;
-    margin: 0 auto;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .formations-title,
@@ -26,7 +36,7 @@
 .formations-subtitle,
 .project-subtitle,
 .competence-subtitle {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, "Liberation Mono", monospace;
     letter-spacing: 0.07em;
 }
 
