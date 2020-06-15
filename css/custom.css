@@ -157,3 +157,16 @@
     margin-top: -50px;
     font-weight: 600;
 }
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.social-link:hover {
+    text-decoration: none;
+    font-weight: 700;
+}
