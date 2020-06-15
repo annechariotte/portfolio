@@ -1,4 +1,8 @@
 /* your styles go here */
+.container-90 {
+    width: 90%;
+    margin: 0 auto;
+}
 
 .formations-title,
 .project-title,
@@ -8,6 +12,10 @@
 .competence-subtitle {
     font-size: 19px;
     text-decoration: none;
+}
+
+.intro h1 {
+    text-align: center;
 }
 
 .project-title {

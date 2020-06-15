@@ -273,9 +273,7 @@ CONTACT SECTION
 }
 
 p.social {
-  text-align: center;
   margin-top: 5px;
-  margin-left: 60px;
 }
 
 p.social a {
@@ -290,7 +288,6 @@ p.social a {
   text-align: center;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  vertical-align: bottom;
 }
 
 p.social a i {
@@ -376,9 +373,6 @@ STYLE SWITCHER FOR DEMO
 /*
  * 1. NAVBAR
  */
-.navbar {
-  padding: 0.5rem 1rem;
-}
 
 .navbar-brand {
   display: inline-block;
