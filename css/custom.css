@@ -68,6 +68,10 @@
     color: black;
 }
 
+.project-link .badge {
+    transition: all 0.7s;
+}
+
 .project-link:hover .badge-secondary {
     background-color: black;
 }
@@ -146,14 +150,15 @@
 }
 
 .wip {
-    font-size: 300px;
+    font-size: 200px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .wip-subtitle {
     text-align: center;
     margin-left: -56px;
-    font-size: 20px;
+    font-size: 24px;
     margin-top: -50px;
     font-weight: 600;
 }
@@ -169,4 +174,34 @@
 .social-link:hover {
     text-decoration: none;
     font-weight: 700;
+}
+
+.gif {
+    width: 100%;
+}
+
+.lowtropy {
+    font-family: sans-serif;
+
+}
+
+.lowtropy-bg {
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: -300px 800px;
+}
+
+.lowtropy-colors-img {
+    width: 80%;
+}
+
+.lowtropy-police-img {
+    width: 95%;
+    margin-left: -110px;
+}
+
+.mcbook-bg {
+    background-repeat: no-repeat;
+    background-size: 523px, 700px;
+    background-position: 120px 103px, center;
 }
