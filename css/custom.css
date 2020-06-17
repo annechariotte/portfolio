@@ -68,6 +68,10 @@
     color: black;
 }
 
+.project-link:focus {
+    text-decoration: none;
+}
+
 .project-link .badge {
     transition: all 0.7s;
 }
