@@ -191,7 +191,7 @@
 .lowtropy-bg {
     background-repeat: no-repeat;
     background-size: 120%;
-    background-position: -300px 670px;
+    background-position: -300px 700px;
 }
 
 .lowtropy-colors-img {
@@ -207,4 +207,9 @@
     background-repeat: no-repeat;
     background-size: 523px, 700px;
     background-position: 120px 50px, center;
+}
+
+footer a:hover {
+    text-decoration: none;
+    font-weight: 700;
 }
