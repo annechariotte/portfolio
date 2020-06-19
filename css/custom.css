@@ -40,19 +40,32 @@
     min-width: 400px;
 }
 
-.cv {
+.cv,
+.site,
+.github {
     margin-top: 50px;
     font-size: 24px;
-    font-weight: 300;
-    text-decoration: none;
-}
-
-.cv a {
-    text-decoration: none;
-}
-
-.cv a:hover {
     font-weight: 600;
+    text-decoration: none;
+}
+
+.cv a,
+.site a,
+.github a {
+    text-decoration: none;
+}
+
+.cv a:hover,
+.site a:hover,
+.github a:hover {
+    font-weight: 600;
+}
+
+.site a:hover,
+.github a:hover {
+    background: -webkit-linear-gradient(45deg, #29FD2F, #E1FD34);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .portfolio-text {
@@ -191,7 +204,7 @@
 .lowtropy-bg {
     background-repeat: no-repeat;
     background-size: 120%;
-    background-position: -300px 700px;
+    background-position: -300px 800px;
 }
 
 .lowtropy-colors-img {
@@ -199,17 +212,28 @@
 }
 
 .lowtropy-police-img {
-    width: 95%;
-    margin-left: -110px;
+    width: 90%;
+    margin-left: -100px;
 }
 
 .mcbook-bg {
     background-repeat: no-repeat;
     background-size: 523px, 700px;
-    background-position: 120px 50px, center;
+    background-position: 120px 45px, center;
 }
 
 footer a:hover {
     text-decoration: none;
     font-weight: 700;
+}
+
+#colors ul {
+    /* list-style: none; */
+    margin-left: 0;
+    padding-left: 0;
+    text-indent: 20px;
+}
+
+#html p {
+    font-size: 24px;
 }
