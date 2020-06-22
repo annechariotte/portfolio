@@ -66,6 +66,12 @@
     font-weight: 600;
 }
 
+.cv a:hover {
+    background: -webkit-linear-gradient(45deg, #118ab2 0%, #06d6a0 37%, #ffd166 50%, #ffec99 67%, #ff9999 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .site a:hover,
 .github a:hover {
     background: -webkit-linear-gradient(45deg, #29FD2F, #E1FD34);
