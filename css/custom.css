@@ -49,6 +49,11 @@
     text-decoration: none;
 }
 
+.site a,
+.github a {
+    color: #29FD2F;
+}
+
 .cv a,
 .site a,
 .github a {
@@ -208,11 +213,11 @@
 }
 
 .lowtropy-colors-img {
-    width: 80%;
+    width: 90%;
 }
 
 .lowtropy-police-img {
-    width: 90%;
+    width: 110%;
     margin-left: -100px;
 }
 
@@ -228,10 +233,9 @@ footer a:hover {
 }
 
 #colors ul {
-    /* list-style: none; */
-    margin-left: 0;
+    /* margin-left: 0;
     padding-left: 0;
-    text-indent: 20px;
+    text-indent: 20px; */
 }
 
 #html p {
