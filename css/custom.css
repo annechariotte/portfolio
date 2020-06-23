@@ -76,16 +76,27 @@
     color: #219FFA;
 }
 
+.landing .site a {
+    color: #219FFA;
+}
+
 .lowtropy .site a:hover,
-.github a:hover {
+.lowtropy .github a:hover {
     background: -webkit-linear-gradient(45deg, #29FD2F, #E1FD34);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .backaround .site a:hover,
-.github a:hover {
+.backaround .github a:hover {
     background: -webkit-linear-gradient(45deg, #0E2457, #219FFA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.landing .site a:hover,
+.landing .github a:hover {
+    background: -webkit-linear-gradient(25deg, #ED225C, #219FFA 10%, #0AC87F 50%, #E1FD34 70%, #F86E5E 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -220,7 +231,8 @@
 }
 
 .lowtropy,
-.backaround {
+.backaround,
+.landing {
     font-family: sans-serif;
 }
 
