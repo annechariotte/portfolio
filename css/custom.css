@@ -238,12 +238,10 @@ footer a:hover {
     font-weight: 700;
 }
 
-#colors ul {
-    /* margin-left: 0;
-    padding-left: 0;
-    text-indent: 20px; */
-}
-
 #html p {
     font-size: 24px;
+}
+
+.experiences ul {
+    list-style: none;
 }
