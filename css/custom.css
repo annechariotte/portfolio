@@ -49,11 +49,6 @@
     text-decoration: none;
 }
 
-.site a,
-.github a {
-    color: #29FD2F;
-}
-
 .cv a,
 .site a,
 .github a {
@@ -72,9 +67,25 @@
     -webkit-text-fill-color: transparent;
 }
 
-.site a:hover,
+.lowtropy .site a,
+.lowtropy .github a {
+    color: #29FD2F;
+}
+
+.backaround .site a {
+    color: #219FFA;
+}
+
+.lowtropy .site a:hover,
 .github a:hover {
     background: -webkit-linear-gradient(45deg, #29FD2F, #E1FD34);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.backaround .site a:hover,
+.github a:hover {
+    background: -webkit-linear-gradient(45deg, #0E2457, #219FFA);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -208,11 +219,13 @@
     width: 100%;
 }
 
-.lowtropy {
+.lowtropy,
+.backaround {
     font-family: sans-serif;
 }
 
-.lowtropy-bg {
+.lowtropy-bg,
+.backaround-bg {
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: -300px 800px;
@@ -231,6 +244,28 @@
     background-repeat: no-repeat;
     background-size: 523px, 700px;
     background-position: 120px 45px, center;
+}
+
+.mockup-bg-1,
+.mockup-bg-2,
+.mockup-bg-3 {
+    background-repeat: no-repeat;
+    background-size: 430px;
+
+}
+
+.mockup-bg-1 {
+    background-position: -50px 50%;
+}
+
+.mockup-bg-2 {
+    background-position: center;
+    height: 100%;
+}
+
+.mockup-bg-3 {
+    background-position: 122% 50%;
+    height: 100%;
 }
 
 footer a:hover {
