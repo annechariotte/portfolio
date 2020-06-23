@@ -252,10 +252,18 @@
     margin-left: -100px;
 }
 
-.mcbook-bg {
+.landing .mcbook-bg,
+.lowtropy .mcbook-bg {
     background-repeat: no-repeat;
     background-size: 523px, 700px;
+}
+
+.lowtropy .mcbook-bg {
     background-position: 120px 45px, center;
+}
+
+.landing .mcbook-bg {
+    background-position: 120px 20px, center;
 }
 
 .mockup-bg-1,
