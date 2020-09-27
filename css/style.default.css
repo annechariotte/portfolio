@@ -1244,7 +1244,7 @@ a {
 a:hover,
 a:focus {
   color: #0d0d0d;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h1,
