@@ -220,11 +220,11 @@
     font-size: 200px;
     text-align: center;
     text-transform: uppercase;
+    margin-left: 40px;
 }
 
 .wip-subtitle {
     text-align: center;
-    margin-left: -56px;
     font-size: 24px;
     margin-top: -50px;
     font-weight: 600;
@@ -324,6 +324,38 @@
 footer a:hover {
     text-decoration: none;
     font-weight: 700;
+}
+
+.transfo {
+    background: black;
+}
+
+.transfo footer,
+.transfo footer a,
+.transfo .wip,
+.transfo .wip-subtitle {
+    color: whitesmoke;
+}
+
+.transfo footer {
+    border-top: solid 1px whitesmoke;
+}
+
+.transfo .overlay {
+    opacity: 0.8;
+}
+
+.transfo footer a:hover {
+    color: #FF6E29;
+}
+
+.transfo nav.navbar a.nav-link {
+    color: black;
+}
+
+.transfo nav.navbar,
+.transfo nav.navbar.sticky {
+    background: #FF6E29;
 }
 
 #html p {
