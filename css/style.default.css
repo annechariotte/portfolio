@@ -37,6 +37,10 @@ section {
   padding: 150px 0;
 }
 
+#services {
+  padding-bottom: 0;
+}
+
 @media (max-width: 767.98px) {
   section {
     padding: 60px 0;
@@ -113,14 +117,58 @@ nav.navbar a.nav-link {
   padding-bottom: 1rem;
 }
 
-nav.navbar a.nav-link.active,
-nav.navbar a.nav-link:hover,
-nav.navbar a.nav-link:focus {
-  color: #333;
+nav.navbar a.nav-link.first:hover,
+nav.navbar a.nav-link.first.active {
+  background: -webkit-linear-gradient(left, #118ab2, #06d6a0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-nav.navbar a.nav-link.active {
-  border-bottom: 1px solid #333;
+nav.navbar a.nav-link.second:hover,
+nav.navbar a.nav-link.second.active {
+  background: -webkit-linear-gradient(left, #06d6a0, #ffd166);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav.navbar a.nav-link.third:hover,
+nav.navbar a.nav-link.third.active {
+  background: -webkit-linear-gradient(left, #ffd166, #ff9999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav.navbar a.nav-link.fourth:hover,
+nav.navbar a.nav-link.fourth.active {
+  background: -webkit-linear-gradient(left, #ff9999, #ce4949);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav.navbar a.nav-link.active:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: -1px;
+  left: -1px;
+}
+
+nav.navbar a.nav-link.first.active:after {
+  background: -webkit-linear-gradient(left, #118ab2, #06d6a0);
+}
+
+nav.navbar a.nav-link.second.active:after {
+  background: -webkit-linear-gradient(left, #06d6a0, #ffd166);
+}
+
+nav.navbar a.nav-link.third.active:after {
+  background: -webkit-linear-gradient(left, #ffd166, #ff9999);
+}
+
+nav.navbar a.nav-link.fourth.active:after {
+  background: -webkit-linear-gradient(left, #ff9999, #ce4949);
 }
 
 nav.navbar .navbar-brand {

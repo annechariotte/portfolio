@@ -30,6 +30,23 @@
     font-weight: 300;
     font-size: 16px;
     letter-spacing: 0;
+
+}
+
+.formations-subtitle a {
+    color: #ffff;
+}
+
+.formations-subtitle a:hover {
+    background: -webkit-linear-gradient(left, #0092B3, #40607F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.formations-subtitle a:hover span {
+    background: -webkit-linear-gradient(left, #40607F, #714A73, #8F3A6C, #B12564);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .item-end {
@@ -96,7 +113,7 @@
 
 .landing .site a:hover,
 .landing .github a:hover {
-    background: -webkit-linear-gradient(25deg, #ED225C, #219FFA 10%, #0AC87F 50%, #E1FD34 70%, #F86E5E 100%);
+    background: -webkit-linear-gradient(45deg, #118ab2 0%, #06d6a0 37%, #ffd166 50%, #ffec99 67%, #ff9999 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -255,7 +272,7 @@
 .landing .mcbook-bg,
 .lowtropy .mcbook-bg {
     background-repeat: no-repeat;
-    background-size: 523px, 700px;
+    background-size: 524px, 700px;
 }
 
 .lowtropy .mcbook-bg {
@@ -263,7 +280,7 @@
 }
 
 .landing .mcbook-bg {
-    background-position: 120px 20px, center;
+    background-position: 120px 30px, center;
 }
 
 .mockup-bg-1,
@@ -299,4 +316,16 @@ footer a:hover {
 
 .experiences ul {
     list-style: none;
+}
+
+p.social a.linkedin:hover {
+    background-color: #006699;
+}
+
+p.social a.github:hover {
+    background-color: #24282E;
+}
+
+p.social a.email:hover {
+    background: linear-gradient(#1C61EB, #1DCBF7);
 }
