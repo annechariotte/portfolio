@@ -264,9 +264,17 @@
     width: 90%;
 }
 
+.backaround-colors-img {
+    width: 100%;
+}
+
 .lowtropy-police-img {
     width: 110%;
     margin-left: -100px;
+}
+
+.backaround-police-img {
+    width: 90%;
 }
 
 .landing .mcbook-bg,
