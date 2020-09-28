@@ -410,53 +410,6 @@ footer a:hover {
     color: black;
 }
 
-.lowtropy nav.navbar #low {
-    width: 93px;
-}
-
-.backaround nav.navbar #back {
-    width: 112px;
-}
-
-.back-landing nav.navbar #land {
-    width: 135px;
-}
-
-.back-landing nav.navbar #app {
-    width: 122px;
-}
-
-.backaround nav.navbar #maq,
-.lowtropy nav.navbar #maq {
-    width: 103px;
-}
-
-.transfo nav.navbar #tr {
-    width: 113px;
-}
-
-.backaround nav.navbar #char,
-.lowtropy nav.navbar #char,
-.transfo nav.navbar #col {
-    width: 170px;
-}
-
-.transfo nav.navbar #typ {
-    width: 141px;
-}
-
-.illustrations nav.navbar #tr {
-    width: 160px;
-}
-
-.illustrations nav.navbar #col {
-    width: 143px;
-}
-
-.illustrations nav.navbar #typ {
-    width: 99px;
-}
-
 .back-landing nav.navbar a.nav-link:hover,
 .back-landing nav.navbar a.nav-link.active,
 .backaround nav.navbar a.nav-link:hover,
