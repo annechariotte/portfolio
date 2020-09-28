@@ -409,15 +409,11 @@ footer a:hover {
 }
 
 .transfo nav.navbar #col {
-    width: 85px;
+    width: 149px;
 }
 
 .transfo nav.navbar #typ {
-    width: 111px;
-}
-
-.transfo nav.navbar #maq {
-    width: 95px;
+    width: 107px;
 }
 
 .transfo nav.navbar a.nav-link:hover {
@@ -481,7 +477,7 @@ p.social a.transfo-link {
     height: 40px;
     background-size: 28px;
     background-repeat: no-repeat;
-    background-position-x: 6px;
+    background-position-x: 7px;
     background-position-y: 2px;
     border: solid 1px black;
     transition: ease;
@@ -489,7 +485,7 @@ p.social a.transfo-link {
 
 p.social a.transfo-link:hover {
     background-size: 26px;
-    background-position-x: 6px;
+    background-position-x: 7px;
     background-position-y: 2px;
     border: solid 2px black;
     transition: ease;
