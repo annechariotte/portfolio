@@ -309,7 +309,7 @@
 }
 
 .backaround-colors-img {
-    width: 100%;
+    width: 95%;
 }
 
 .lowtropy-police-img {
@@ -318,7 +318,7 @@
 }
 
 .backaround-police-img {
-    width: 90%;
+    width: 85%;
 }
 
 .landing .mcbook-bg,
@@ -399,12 +399,14 @@ footer a:hover {
     color: #FF6E29;
 }
 
+.backaround nav.navbar a.nav-link,
 .lowtropy nav.navbar a.nav-link,
 .illustrations nav.navbar a.nav-link,
 .transfo nav.navbar a.nav-link {
     text-align: center;
 }
 
+.backaround nav.navbar a.nav-link,
 .lowtropy nav.navbar a.nav-link,
 .transfo nav.navbar a.nav-link {
     color: black;
@@ -414,10 +416,11 @@ footer a:hover {
     width: 88px;
 }
 
-.lowtropy nav.navbar #char {
-    width: 149px;
+.backaround nav.navbar #back {
+    width: 112px;
 }
 
+.backaround nav.navbar #maq,
 .lowtropy nav.navbar #maq {
     width: 96px;
 }
@@ -426,6 +429,8 @@ footer a:hover {
     width: 97px;
 }
 
+.backaround nav.navbar #char,
+.lowtropy nav.navbar #char,
 .transfo nav.navbar #col {
     width: 149px;
 }
@@ -446,6 +451,8 @@ footer a:hover {
     width: 99px;
 }
 
+.backaround nav.navbar a.nav-link:hover,
+.backaround nav.navbar a.nav-link.active,
 .lowtropy nav.navbar a.nav-link:hover,
 .lowtropy nav.navbar a.nav-link.active,
 .illustrations nav.navbar a.nav-link:hover,
@@ -463,6 +470,10 @@ footer a:hover {
 
 .lowtropy nav.navbar a.nav-link.active:after {
     background: greenyellow;
+}
+
+.backaround nav.navbar a.nav-link.active:after {
+    background: #219FFA;
 }
 
 .transfo nav.navbar,
@@ -549,5 +560,26 @@ p.social a.lowtropy-link {
 
 p.social a.lowtropy-link:hover {
     background-color: greenyellow;
+    transition: ease;
+}
+
+p.social a.backaround-link {
+    width: 46px;
+    height: 40px;
+    background-size: 36px;
+    background-repeat: no-repeat;
+    background-position-x: 8px;
+    background-position-y: 2px;
+    transition: ease;
+}
+
+p.social a.backaround-link:hover {
+    width: 46px;
+    height: 40px;
+    border-radius: 0px;
+    background-size: 46px;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: -6px;
     transition: ease;
 }
