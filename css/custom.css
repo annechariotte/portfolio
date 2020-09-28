@@ -273,7 +273,7 @@
 }
 
 .mt-100 {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .mb-35 {
@@ -281,7 +281,7 @@
 }
 
 .pb-100 {
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 
 .social-link:hover {
@@ -293,11 +293,11 @@
     width: 100%;
 }
 
-.lowtropy,
+/* .lowtropy,
 .backaround,
 .landing {
     font-family: sans-serif;
-}
+} */
 
 .lowtropy-bg,
 .backaround-bg {
@@ -378,23 +378,17 @@ footer a:hover {
     -webkit-text-fill-color: transparent;
 }
 
-.transfo {
-    background: black;
+.transfo .intro {
+    background-size: 450px;
+    background-color: whitesmoke;
 }
 
-.transfo footer,
-.transfo footer a,
-.transfo .wip,
-.transfo .wip-subtitle {
-    color: whitesmoke;
+.transfo .overlay {
+    background: whitesmoke;
 }
 
 .transfo footer {
     border-top: solid 1px whitesmoke;
-}
-
-.transfo .overlay {
-    opacity: 0.8;
 }
 
 .transfo footer a:hover {
@@ -417,7 +411,7 @@ footer a:hover {
 }
 
 .lowtropy nav.navbar #low {
-    width: 88px;
+    width: 93px;
 }
 
 .backaround nav.navbar #back {
@@ -425,30 +419,30 @@ footer a:hover {
 }
 
 .back-landing nav.navbar #land {
-    width: 120px;
+    width: 135px;
 }
 
 .back-landing nav.navbar #app {
-    width: 104px;
+    width: 122px;
 }
 
 .backaround nav.navbar #maq,
 .lowtropy nav.navbar #maq {
-    width: 96px;
+    width: 103px;
 }
 
 .transfo nav.navbar #tr {
-    width: 97px;
+    width: 113px;
 }
 
 .backaround nav.navbar #char,
 .lowtropy nav.navbar #char,
 .transfo nav.navbar #col {
-    width: 149px;
+    width: 170px;
 }
 
 .transfo nav.navbar #typ {
-    width: 107px;
+    width: 141px;
 }
 
 .illustrations nav.navbar #tr {
@@ -476,11 +470,13 @@ footer a:hover {
     font-weight: bold;
 }
 
-/* 
-.illustrations nav.navbar a.nav-link.active:after,
-.transfo nav.navbar a.nav-link.active:after {
+.illustrations nav.navbar a.nav-link.active:after {
     background: black;
-} */
+}
+
+.transfo nav.navbar a.nav-link.active:after {
+    background: #FF6E29;
+}
 
 .lowtropy nav.navbar a.nav-link.active:after {
     background: greenyellow;
@@ -493,7 +489,7 @@ footer a:hover {
 
 .transfo nav.navbar,
 .transfo nav.navbar.sticky {
-    background: #FF6E29;
+    background: white;
 }
 
 #html p {
@@ -544,21 +540,21 @@ p.social a.insta:hover {
 }
 
 p.social a.transfo-link {
-    width: 40px;
-    height: 40px;
-    background-size: 28px;
+    width: 38px;
+    height: 38px;
+    background-size: 23px;
     background-repeat: no-repeat;
-    background-position-x: 7px;
-    background-position-y: 2px;
+    background-position-x: 8px;
+    background-position-y: 4px;
     border: solid 1px black;
     transition: ease;
 }
 
 p.social a.transfo-link:hover {
-    background-size: 26px;
+    background-size: 23px;
     background-position-x: 7px;
-    background-position-y: 2px;
-    border: solid 2px black;
+    background-position-y: 3px;
+    border: solid 2px #FF6E29;
     transition: ease;
 }
 
