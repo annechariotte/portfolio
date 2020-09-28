@@ -399,13 +399,27 @@ footer a:hover {
     color: #FF6E29;
 }
 
+.lowtropy nav.navbar a.nav-link,
 .illustrations nav.navbar a.nav-link,
 .transfo nav.navbar a.nav-link {
     text-align: center;
 }
 
+.lowtropy nav.navbar a.nav-link,
 .transfo nav.navbar a.nav-link {
     color: black;
+}
+
+.lowtropy nav.navbar #low {
+    width: 88px;
+}
+
+.lowtropy nav.navbar #char {
+    width: 149px;
+}
+
+.lowtropy nav.navbar #maq {
+    width: 96px;
 }
 
 .transfo nav.navbar #tr {
@@ -432,6 +446,8 @@ footer a:hover {
     width: 99px;
 }
 
+.lowtropy nav.navbar a.nav-link:hover,
+.lowtropy nav.navbar a.nav-link.active,
 .illustrations nav.navbar a.nav-link:hover,
 .illustrations nav.navbar a.nav-link.active,
 .transfo nav.navbar a.nav-link:hover,
@@ -444,6 +460,10 @@ footer a:hover {
 .transfo nav.navbar a.nav-link.active:after {
     background: black;
 } */
+
+.lowtropy nav.navbar a.nav-link.active:after {
+    background: greenyellow;
+}
 
 .transfo nav.navbar,
 .transfo nav.navbar.sticky {
@@ -513,5 +533,21 @@ p.social a.transfo-link:hover {
     background-position-x: 7px;
     background-position-y: 2px;
     border: solid 2px black;
+    transition: ease;
+}
+
+p.social a.lowtropy-link {
+    width: 40px;
+    height: 40px;
+    background-size: 36px;
+    background-repeat: no-repeat;
+    background-position-x: 1px;
+    background-position-y: 8px;
+    border: solid 1px black;
+    transition: ease;
+}
+
+p.social a.lowtropy-link:hover {
+    background-color: greenyellow;
     transition: ease;
 }
