@@ -273,7 +273,7 @@
 }
 
 .mt-100 {
-    margin-top: 200px;
+    padding-top: 200px;
 }
 
 .mb-35 {
@@ -304,6 +304,11 @@
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: -300px 800px;
+}
+
+.ledschat .overlay {
+    background: whitesmoke;
+    opacity: 0.8;
 }
 
 .lowtropy-colors-img {
@@ -378,6 +383,12 @@ footer a:hover {
     -webkit-text-fill-color: transparent;
 }
 
+.ledschat #html a:hover {
+    background: -webkit-linear-gradient(45deg, #4C66CC, #6E3AAF, #A133AE, #D02F7A, #F36531, #F7CD71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .transfo .intro {
     background-size: 450px;
     background-color: whitesmoke;
@@ -395,6 +406,7 @@ footer a:hover {
     color: #FF6E29;
 }
 
+.ledschat nav.navbar a.nav-link,
 .back-landing nav.navbar a.nav-link,
 .backaround nav.navbar a.nav-link,
 .lowtropy nav.navbar a.nav-link,
@@ -403,6 +415,7 @@ footer a:hover {
     text-align: center;
 }
 
+.ledschat nav.navbar a.nav-link,
 .back-landing nav.navbar a.nav-link,
 .backaround nav.navbar a.nav-link,
 .lowtropy nav.navbar a.nav-link,
@@ -410,6 +423,7 @@ footer a:hover {
     color: black;
 }
 
+.ledschat nav.navbar a.nav-link:hover,
 .back-landing nav.navbar a.nav-link:hover,
 .back-landing nav.navbar a.nav-link.active,
 .backaround nav.navbar a.nav-link:hover,
@@ -433,6 +447,10 @@ footer a:hover {
 
 .lowtropy nav.navbar a.nav-link.active:after {
     background: greenyellow;
+}
+
+.ledschat nav.navbar a.nav-link.active:after {
+    background: #B12564;
 }
 
 .back-landing nav.navbar a.nav-link.active:after,
@@ -508,6 +526,19 @@ p.social a.transfo-link:hover {
     background-position-x: 7px;
     background-position-y: 3px;
     border: solid 2px #FF6E29;
+    transition: ease;
+}
+
+p.social a.ledschat-link {
+    background-size: 38px;
+    border-radius: 0px;
+    transition: ease;
+}
+
+p.social a.ledschat-link:hover {
+    border: solid 4px #B12564;
+    background-position-x: -4px;
+    background-position-y: -4px;
     transition: ease;
 }
 
