@@ -400,7 +400,28 @@ footer a:hover {
 }
 
 .transfo nav.navbar a.nav-link {
+    text-align: center;
     color: black;
+}
+
+.transfo nav.navbar #tr {
+    width: 97px;
+}
+
+.transfo nav.navbar #col {
+    width: 85px;
+}
+
+.transfo nav.navbar #typ {
+    width: 111px;
+}
+
+.transfo nav.navbar #maq {
+    width: 95px;
+}
+
+.transfo nav.navbar a.nav-link:hover {
+    font-weight: bold;
 }
 
 .transfo nav.navbar,
