@@ -429,11 +429,24 @@ p.social a.email:hover {
 }
 
 p.social a.insta {
+    background: #666;
+    transition: ease;
+}
+
+.illustrations p.social a.insta {
     background: black;
     transition: ease;
 }
 
+p.social a.github i {
+    font-size: 20px;
+}
+
 p.social a.insta i {
+    font-size: 20px;
+}
+
+.illustrations p.social a.insta i {
     font-size: 30px;
 }
 
