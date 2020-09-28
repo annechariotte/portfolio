@@ -454,3 +454,19 @@ p.social a.insta:hover {
     background: linear-gradient(195deg, #4C66CC, #6E3AAF, #A133AE, #D02F7A, #F36531, #F7CD71);
     transition: ease;
 }
+
+p.social a.transfo-link {
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position-x: 8px;
+    background-position-y: 4px;
+    transition: ease;
+}
+
+p.social a.transfo-link:hover {
+    background-size: 25px;
+    background-position-x: 7px;
+    background-position-y: 3px;
+    border: solid 1px black;
+    transition: ease;
+}
