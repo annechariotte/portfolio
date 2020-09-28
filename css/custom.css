@@ -70,14 +70,16 @@
 }
 
 .formations-subtitle.latransfo a:hover {
-    color: #FF7001;
-}
-
-.formations-subtitle.latransfo a:hover span {
-    background: -webkit-linear-gradient(45deg, #FF7001, #612682, #440092, black);
+    background: -webkit-linear-gradient(45deg, #FF7001, #FF7001, #612682, #440092, black);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* .formations-subtitle.latransfo a:hover span {
+    background: -webkit-linear-gradient(45deg, #FF7001, #612682, #440092, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
 
 .formations-subtitle.ledschat a:hover {
     background: -webkit-linear-gradient(45deg, #118ab2 0%, #06d6a0 37%, #ffd166 50%, #ffec99 67%, #ff9999 100%);
