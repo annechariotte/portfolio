@@ -401,6 +401,7 @@ footer a:hover {
     color: #FF6E29;
 }
 
+.back-landing nav.navbar a.nav-link,
 .backaround nav.navbar a.nav-link,
 .lowtropy nav.navbar a.nav-link,
 .illustrations nav.navbar a.nav-link,
@@ -408,6 +409,7 @@ footer a:hover {
     text-align: center;
 }
 
+.back-landing nav.navbar a.nav-link,
 .backaround nav.navbar a.nav-link,
 .lowtropy nav.navbar a.nav-link,
 .transfo nav.navbar a.nav-link {
@@ -420,6 +422,14 @@ footer a:hover {
 
 .backaround nav.navbar #back {
     width: 112px;
+}
+
+.back-landing nav.navbar #land {
+    width: 120px;
+}
+
+.back-landing nav.navbar #app {
+    width: 104px;
 }
 
 .backaround nav.navbar #maq,
@@ -453,6 +463,8 @@ footer a:hover {
     width: 99px;
 }
 
+.back-landing nav.navbar a.nav-link:hover,
+.back-landing nav.navbar a.nav-link.active,
 .backaround nav.navbar a.nav-link:hover,
 .backaround nav.navbar a.nav-link.active,
 .lowtropy nav.navbar a.nav-link:hover,
@@ -474,6 +486,7 @@ footer a:hover {
     background: greenyellow;
 }
 
+.back-landing nav.navbar a.nav-link.active:after,
 .backaround nav.navbar a.nav-link.active:after {
     background: #219FFA;
 }
