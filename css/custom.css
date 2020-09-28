@@ -456,17 +456,20 @@ p.social a.insta:hover {
 }
 
 p.social a.transfo-link {
-    background-size: 25px;
+    width: 40px;
+    height: 40px;
+    background-size: 28px;
     background-repeat: no-repeat;
-    background-position-x: 8px;
-    background-position-y: 4px;
+    background-position-x: 6px;
+    background-position-y: 2px;
+    border: solid 1px black;
     transition: ease;
 }
 
 p.social a.transfo-link:hover {
-    background-size: 25px;
-    background-position-x: 7px;
-    background-position-y: 3px;
-    border: solid 1px black;
+    background-size: 26px;
+    background-position-x: 6px;
+    background-position-y: 2px;
+    border: solid 2px black;
     transition: ease;
 }
