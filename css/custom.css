@@ -399,8 +399,12 @@ footer a:hover {
     color: #FF6E29;
 }
 
+.illustrations nav.navbar a.nav-link,
 .transfo nav.navbar a.nav-link {
     text-align: center;
+}
+
+.transfo nav.navbar a.nav-link {
     color: black;
 }
 
@@ -416,9 +420,30 @@ footer a:hover {
     width: 107px;
 }
 
-.transfo nav.navbar a.nav-link:hover {
+.illustrations nav.navbar #tr {
+    width: 160px;
+}
+
+.illustrations nav.navbar #col {
+    width: 143px;
+}
+
+.illustrations nav.navbar #typ {
+    width: 99px;
+}
+
+.illustrations nav.navbar a.nav-link:hover,
+.illustrations nav.navbar a.nav-link.active,
+.transfo nav.navbar a.nav-link:hover,
+.transfo nav.navbar a.nav-link.active {
     font-weight: bold;
 }
+
+/* 
+.illustrations nav.navbar a.nav-link.active:after,
+.transfo nav.navbar a.nav-link.active:after {
+    background: black;
+} */
 
 .transfo nav.navbar,
 .transfo nav.navbar.sticky {
