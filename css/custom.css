@@ -362,6 +362,20 @@ footer a:hover {
     font-weight: 700;
 }
 
+.illustrations nav.navbar a.nav-link {
+    color: black;
+}
+
+.illustrations nav.navbar {
+    background: whitesmoke;
+}
+
+.illustrations .instagram a:hover {
+    background: -webkit-linear-gradient(45deg, #4C66CC, #6E3AAF, #A133AE, #D02F7A, #F36531, #F7CD71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .transfo {
     background: black;
 }
@@ -412,4 +426,18 @@ p.social a.github:hover {
 
 p.social a.email:hover {
     background: linear-gradient(#1C61EB, #1DCBF7);
+}
+
+p.social a.insta {
+    background: black;
+    transition: ease;
+}
+
+p.social a.insta i {
+    font-size: 30px;
+}
+
+p.social a.insta:hover {
+    background: linear-gradient(195deg, #4C66CC, #6E3AAF, #A133AE, #D02F7A, #F36531, #F7CD71);
+    transition: ease;
 }
