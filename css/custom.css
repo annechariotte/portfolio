@@ -3,6 +3,16 @@ section {
     overflow: hidden;
 }
 
+header nav+p {
+    display: none;
+}
+
+header nav.sticky+p {
+    display: block;
+    line-height: 57px;
+    margin: 0;
+}
+
 .formations-title,
 .project-title,
 .competence-title,
