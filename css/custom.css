@@ -3,6 +3,10 @@ section {
     overflow: hidden;
 }
 
+#about {
+    padding-top: 100px;
+}
+
 header nav+p {
     display: none;
 }
@@ -33,7 +37,7 @@ header nav.sticky img {
     text-decoration: none;
 }
 
-p.about {
+.about p {
     padding-right: 50px;
 }
 
