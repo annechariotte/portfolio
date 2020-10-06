@@ -13,6 +13,16 @@ header nav.sticky+p {
     margin: 0;
 }
 
+header nav img {
+    display: none;
+    transition: ease;
+}
+
+header nav.sticky img {
+    display: block;
+    transition: ease;
+}
+
 .formations-title,
 .project-title,
 .competence-title,
@@ -29,7 +39,7 @@ p.about {
 
 .intro.name h1 {
     font-size: 25px;
-    color: white;
+    color: black;
     text-shadow: none;
 }
 
