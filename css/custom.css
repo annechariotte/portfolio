@@ -1,4 +1,7 @@
 /* your styles go here */
+section {
+    overflow: hidden;
+}
 
 .formations-title,
 .project-title,
