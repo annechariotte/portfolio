@@ -93,8 +93,11 @@ header nav.sticky img {
 }
 
 #portfolio .row {
-    border-top: solid 1px black;
-    border-bottom: solid 1px black;
+    border-bottom: solid 0.1px black;
+}
+
+#portfolio .row.top {
+    border-top: solid 0.1px black;
 }
 
 .intro h1 {
