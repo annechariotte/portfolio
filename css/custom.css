@@ -10,6 +10,10 @@
     text-decoration: none;
 }
 
+p.about {
+    padding-right: 50px;
+}
+
 .intro h1 {
     text-align: center;
 }
@@ -110,16 +114,67 @@
     text-decoration: none;
 }
 
-.cv a:hover,
+.cv:hover a,
 .site a:hover,
 .github a:hover {
     font-weight: 600;
 }
 
-.cv a:hover {
-    background: -webkit-linear-gradient(45deg, #118ab2 0%, #06d6a0 37%, #ffd166 50%, #ffec99 67%, #ff9999 100%);
+.cv:hover {
+    padding-bottom: 52px;
+}
+
+.cv:hover a {
+    background: -webkit-linear-gradient(45deg, #118ab2, #06d6a0, #ffd166, #ffec99, #ff9999, #ce4949, #612682, #118ab2, #06d6a0, #ffd166, #ffec99, #ff9999, #ce4949, #612682);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.cv:hover .marquee-hover {
+    display: none;
+}
+
+.marquee {
+    width: 50%;
+    white-space: nowrap;
+    position: relative;
+    display: inline-block;
+    animation: marquee 15s linear infinite;
+}
+
+.marquee a {
+    animation: swap 15s linear infinite;
+}
+
+@keyframes swap {
+
+    0%,
+    50% {
+        right: 0%;
+    }
+
+    50.01%,
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%)
+    }
+
+    100% {
+        transform: translateX(-100%)
+    }
+}
+
+.cv .marquee {
+    visibility: hidden;
+}
+
+.cv:hover .marquee {
+    visibility: initial;
 }
 
 .lowtropy .site a,
