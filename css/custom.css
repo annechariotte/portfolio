@@ -505,7 +505,18 @@ header nav.sticky img {
 }
 
 .lowtropy-colors-img {
-    width: 90%;
+    width: 110%;
+    margin-top: -40px;
+    margin-right: -80px;
+}
+
+#colors p {
+    font-weight: bold;
+}
+
+.poly-colors {
+    text-transform: uppercase;
+    font-size: 24px;
 }
 
 .backaround-colors-img {
@@ -515,6 +526,7 @@ header nav.sticky img {
 .lowtropy-police-img {
     width: 110%;
     margin-left: -100px;
+    margin-top: 0px;
 }
 
 .backaround-police-img {
@@ -524,11 +536,11 @@ header nav.sticky img {
 .landing .mcbook-bg,
 .lowtropy .mcbook-bg {
     background-repeat: no-repeat;
-    background-size: 524px, 700px;
+    background-size: 472px, 630px;
 }
 
 .lowtropy .mcbook-bg {
-    background-position: 120px 45px, center;
+    background-position: 210px 32px, right 10px;
 }
 
 .landing .mcbook-bg {
@@ -608,29 +620,24 @@ footer a:hover {
     text-align: center;
 }
 
-.ledschat nav.navbar a.nav-link,
-.back-landing nav.navbar a.nav-link,
 .backaround nav.navbar a.nav-link,
-.lowtropy nav.navbar a.nav-link,
-.transfo nav.navbar a.nav-link {
+.lowtropy nav.navbar a.nav-link {
     color: black;
 }
 
-.ledschat nav.navbar a.nav-link:hover,
-.back-landing nav.navbar a.nav-link:hover,
-.back-landing nav.navbar a.nav-link.active,
 .backaround nav.navbar a.nav-link:hover,
-.backaround nav.navbar a.nav-link.active,
-.lowtropy nav.navbar a.nav-link:hover,
-.lowtropy nav.navbar a.nav-link.active,
-.illustrations nav.navbar a.nav-link:hover,
-.illustrations nav.navbar a.nav-link.active,
-.transfo nav.navbar a.nav-link:hover,
-.transfo nav.navbar a.nav-link.active {
+.backaround nav.navbar a.nav-link.active {
     font-weight: bold;
+    color: #219FFA;
 }
 
-.illustrations nav.navbar a.nav-link.active:after {
+.lowtropy nav.navbar a.nav-link:hover,
+.lowtropy nav.navbar a.nav-link.active {
+    font-weight: bold;
+    color: #29FD2F;
+}
+
+/* .illustrations nav.navbar a.nav-link.active:after {
     background: black;
 }
 
@@ -649,7 +656,7 @@ footer a:hover {
 .back-landing nav.navbar a.nav-link.active:after,
 .backaround nav.navbar a.nav-link.active:after {
     background: #219FFA;
-}
+} */
 
 .transfo nav.navbar,
 .transfo nav.navbar.sticky {
@@ -747,7 +754,7 @@ p.social a.lowtropy-link {
 }
 
 p.social a.lowtropy-link:hover {
-    background-color: greenyellow;
+    background-color: #29FD2F;
     transition: ease;
 }
 
