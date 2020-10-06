@@ -505,8 +505,12 @@ header nav.sticky img {
 }
 
 .lowtropy-colors-img {
-    width: 110%;
     margin-top: -40px;
+}
+
+.lowtropy-colors-img,
+.backaround-colors-img {
+    width: 110%;
     margin-right: -80px;
 }
 
@@ -519,18 +523,16 @@ header nav.sticky img {
     font-size: 24px;
 }
 
-.backaround-colors-img {
-    width: 95%;
+.backaround-police-img {
+    width: 100%;
+    margin-left: -40px;
+    margin-top: -40px;
 }
 
 .lowtropy-police-img {
     width: 110%;
     margin-left: -100px;
     margin-top: 0px;
-}
-
-.backaround-police-img {
-    width: 85%;
 }
 
 .landing .mcbook-bg,
