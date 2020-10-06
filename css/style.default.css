@@ -159,6 +159,11 @@ nav.navbar a.nav-link.active:after {
   left: -1px;
 }
 
+nav.navbar a.nav-link.active {
+  font-weight: bold;
+}
+
+/* 
 nav.navbar a.nav-link.first.active:after {
   background: -webkit-linear-gradient(left, #ce4949, #ff9999, #ffd166);
 }
@@ -173,7 +178,7 @@ nav.navbar a.nav-link.third.active:after {
 
 nav.navbar a.nav-link.fourth.active:after {
   background: -webkit-linear-gradient(left, #ff9999);
-}
+} */
 
 nav.navbar .navbar-brand {
   padding-top: 0;

@@ -17,6 +17,7 @@ p.about {
 .intro.name h1 {
     font-size: 25px;
     color: white;
+    text-shadow: none;
 }
 
 .intro h1 {
@@ -129,7 +130,7 @@ p.about {
     padding-bottom: 52px;
 } */
 
-.cv:hover a {
+.cv a {
     background: -webkit-linear-gradient(45deg, #118ab2, #06d6a0, #ffd166, #ffec99, #ff9999, #ce4949, #612682, #118ab2, #06d6a0, #ffd166, #ffec99, #ff9999, #ce4949, #612682);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
