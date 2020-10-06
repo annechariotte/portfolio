@@ -210,17 +210,24 @@ INTRO SECTION
   background-attachment: fixed;
 }
 
-.intro.name {
+.intro p {
+  font-size: 33px;
+  letter-spacing: 7px;
+  text-align: center;
+}
+
+.name {
   height: 67px;
   background-color: whitesmoke;
   min-height: 67px;
 }
 
-.intro.name h1 {
+.name h1 {
   margin-bottom: 0;
 }
 
-.intro.name h1 span,
+.intro h1,
+.name h1 span,
 .intro h2,
 .intro h3,
 .intro p {
@@ -1284,7 +1291,7 @@ h6,
   letter-spacing: 0.2em;
 }
 
-h1,
+.intro h1,
 .h1 {
   font-size: 2.8rem;
 }
