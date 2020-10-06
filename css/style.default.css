@@ -58,6 +58,10 @@ section {
   opacity: 0.2;
 }
 
+.intro.name .overlay {
+  background: linear-gradient(45deg, #333 0%, #555 5%, whitesmoke 70%);
+}
+
 .heading {
   margin-bottom: 40px;
 }
@@ -206,7 +210,17 @@ INTRO SECTION
   background-attachment: fixed;
 }
 
-.intro h1,
+.intro.name {
+  height: 67px;
+  background-color: whitesmoke;
+  min-height: 67px;
+}
+
+.intro.name h1 {
+  margin-bottom: 0;
+}
+
+.intro.name h1 span,
 .intro h2,
 .intro h3,
 .intro p {
@@ -214,10 +228,12 @@ INTRO SECTION
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-.intro p {
-  font-size: 33px;
+.intro span {
+  font-size: 32px;
   letter-spacing: 7px;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: normal;
 }
 
 .content {
