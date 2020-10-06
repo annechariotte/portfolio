@@ -97,6 +97,10 @@ section {
   margin-bottom: 50px;
 }
 
+.portfolio .box {
+  margin-bottom: 0;
+}
+
 /*
 *
 =====================
@@ -130,14 +134,14 @@ nav.navbar a.nav-link.first.active {
 
 nav.navbar a.nav-link.second:hover,
 nav.navbar a.nav-link.second.active {
-  background: -webkit-linear-gradient(left, #ffd166, #06d6a0);
+  background: -webkit-linear-gradient(left, #06d6a0, #118ab2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 nav.navbar a.nav-link.third:hover,
 nav.navbar a.nav-link.third.active {
-  background: -webkit-linear-gradient(left, #06d6a0, #118ab2);
+  background: -webkit-linear-gradient(left, #ffd166, #06d6a0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -246,6 +250,16 @@ INTRO SECTION
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   font-weight: normal;
+}
+
+#portfolio p {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.2rem;
+  margin: -20px 0 5px 0px;
+  white-space: nowrap;
 }
 
 .content {
@@ -1304,6 +1318,12 @@ h6,
 h2,
 .h2 {
   font-size: 2.1rem;
+}
+
+#portfolio h2 {
+  font-size: 76px;
+  white-space: nowrap;
+  margin: 0;
 }
 
 h3,

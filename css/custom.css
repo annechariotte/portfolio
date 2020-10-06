@@ -4,7 +4,52 @@ section {
 }
 
 #about {
-    padding-top: 100px;
+    padding: 100px 0;
+}
+
+#portfolio {
+    margin: -60px 0 0 0;
+    padding-top: 60px;
+}
+
+#portfolio #transfo,
+#portfolio #lowtropy,
+#portfolio #backaround,
+#portfolio #ledschat,
+#portfolio #illustrations {
+    background: rgb(245, 245, 245, 1);
+    transition: all 0.2s;
+}
+
+#portfolio #transfo:hover {
+    background: #FF6E28;
+    transition: all 0.2s;
+}
+
+#portfolio #lowtropy:hover {
+    background: #29FD2F;
+    transition: all 0.2s;
+}
+
+#portfolio #backaround:hover {
+    background: #1C9BF6;
+    transition: all 0.2s;
+}
+
+#portfolio #ledschat:hover {
+    background-image: url(../img/leds-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(245, 245, 245, 0);
+    transition: all 0.5s ease;
+}
+
+#portfolio #illustrations:hover {
+    background-image: url(../img/bat-illustration.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(245, 245, 245, 0);
+    transition: all 0.7s ease;
 }
 
 header nav+p {
@@ -45,6 +90,11 @@ header nav.sticky img {
     font-size: 25px;
     color: black;
     text-shadow: none;
+}
+
+#portfolio .row {
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
 }
 
 .intro h1 {
@@ -132,7 +182,6 @@ header nav.sticky img {
     min-width: 400px;
 }
 
-.cv,
 .site,
 .github {
     margin-top: 50px;
@@ -141,13 +190,26 @@ header nav.sticky img {
     text-decoration: none;
 }
 
+.cv,
+.cv-bis {
+    margin-top: 50px;
+    margin-bottom: -30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 76px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    text-decoration: none;
+}
+
 .cv a,
+.cv-bis a,
 .site a,
 .github a {
     text-decoration: none;
 }
 
-.cv:hover a,
+.cv a:hover,
+.cv-bis a:hover,
 .site a:hover,
 .github a:hover {
     font-weight: 600;
@@ -157,22 +219,31 @@ header nav.sticky img {
     padding-bottom: 52px;
 } */
 
-.cv a {
+.cv a,
+.cv-bis a {
     background: -webkit-linear-gradient(45deg, #118ab2, #06d6a0, #ffd166, #ffec99, #ff9999, #ce4949, #612682, #118ab2, #06d6a0, #ffd166, #ffec99, #ff9999, #ce4949, #612682);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.cv:hover .marquee-hover {
+/* .cv:hover .marquee-hover {
     display: none;
-}
+} */
 
-.marquee {
+.cv .marquee {
     width: 50%;
     white-space: nowrap;
     position: relative;
     display: inline-block;
-    animation: marquee 15s linear infinite;
+    animation: marquee 30s linear infinite;
+}
+
+.cv-bis .marquee {
+    width: 50%;
+    white-space: nowrap;
+    position: relative;
+    display: inline-block;
+    animation: marqueeBis 30s linear infinite;
 }
 
 .marquee a {
@@ -202,6 +273,16 @@ header nav.sticky img {
     }
 }
 
+@keyframes marqueeBis {
+    0% {
+        transform: translateX(-100%)
+    }
+
+    100% {
+        transform: translateX(0%)
+    }
+}
+
 /* .cv .marquee {
     visibility: hidden;
 }
@@ -209,6 +290,18 @@ header nav.sticky img {
 .cv:hover .marquee {
     visibility: initial;
 } */
+/* .box {
+    border: solid 10px #6c757d;
+} */
+
+.box div {
+    padding: 10px;
+}
+
+.portfolio {
+    padding: 0;
+    margin: -5px;
+}
 
 .lowtropy .site a,
 .lowtropy .github a {
@@ -249,7 +342,7 @@ header nav.sticky img {
 }
 
 .project-link {
-    color: dimgray;
+    color: black;
 }
 
 .project-link:hover {
