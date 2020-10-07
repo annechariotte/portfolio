@@ -8,15 +8,23 @@
     }
 
     p.social a {
-        margin: 0 40px 0 0;
+        margin: 0 20px;
     }
 
     .desktop {
         display: none;
     }
 
-    .mobile {
+    .mobile,
+    .mob {
         display: block;
+    }
+
+    .mob {
+        margin-top: 0px;
+    }
+
+    .mobile {
         margin: 5px;
     }
 
@@ -58,6 +66,25 @@
     }
 
     #about {
-        padding: 150px 0;
+        padding: 150px 0 0 0;
     }
+
+    .cv,
+    .cv-bis {
+        font-size: 20px;
+    }
+
+    .cv {
+        margin-bottom: -25px;
+    }
+
+    .cv .marquee {
+        animation: marqueeBis 30s linear infinite;
+    }
+
+    div.social {
+        display: flex;
+        margin: 50px auto;
+    }
+}
 }
