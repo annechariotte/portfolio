@@ -1,4 +1,13 @@
 /* your styles go here */
+#portfolio div:hover,
+#portfolio div:visited,
+#portfolio div:active,
+#portfolio div:focus,
+#portfolio div:focus-within {
+    text-decoration: none;
+    border: none;
+}
+
 section {
     overflow: hidden;
 }
