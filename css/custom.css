@@ -32,16 +32,23 @@ section {
 }
 
 #maquettes {
-    padding: 120px 0 60px 0;
+    padding: 10px 0 60px 0;
+    margin-top: 110px;
 }
 
-#maquettes img:hover {
-    height: 224px;
+#maquettes div {
+    padding: 2px;
+    margin: 0 auto;
+}
+
+#maquettes img {
+    width: 100%;
 }
 
 #maquettes img:hover {
     border: solid 3px black;
-    height: 224px;
+    width: 100%;
+    margin: -1px;
 }
 
 #portfolio #transfo,
@@ -532,8 +539,7 @@ header nav.sticky img {
 
 .lowtropy-colors-img,
 .backaround-colors-img {
-    width: 110%;
-    margin-right: -80px;
+    width: 95%;
 }
 
 #colors p {
