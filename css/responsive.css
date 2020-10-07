@@ -33,6 +33,7 @@
         letter-spacing: 0.2em;
         text-align: center;
         margin: 0;
+        white-space: nowrap;
     }
 
     .mobile p {
@@ -43,6 +44,7 @@
         font-weight: normal;
         margin: 0;
         padding-left: 3px;
+        white-space: nowrap;
     }
 
     p.item-end {
