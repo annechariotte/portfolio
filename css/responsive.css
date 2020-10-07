@@ -36,7 +36,7 @@
         white-space: nowrap;
     }
 
-    .mobile p {
+    header .mobile p {
         font-size: 12px;
         letter-spacing: 7px;
         text-align: center;
@@ -98,15 +98,23 @@
     } */
 
     #portfolio h2 {
-        font-size: 25px;
+        font-size: 36px;
         white-space: nowrap;
         margin: 15px;
     }
 
     #portfolio p {
-        font-size: 12px;
+        font-size: 14px;
         white-space: normal;
         margin: -20px 15px 5px 15px;
+    }
+
+    h2 span {
+        display: none;
+    }
+
+    #portfolio {
+        padding-bottom: 0;
     }
 
 }
