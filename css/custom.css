@@ -136,40 +136,31 @@ header nav.sticky img {
     color: #ffff;
 }
 
-.formations-subtitle.centrale a:hover {
-    background: -webkit-linear-gradient(45deg, #0092B3, #40607F);
+.centrale a:hover {
+    background: -webkit-linear-gradient(45deg, #0092B3, #40607F, #714A73, #8F3A6C, #B12564);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.formations-subtitle.centrale a:hover span {
-    background: -webkit-linear-gradient(45deg, #40607F, #714A73, #8F3A6C, #B12564);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.formations-subtitle.esdamm a:hover {
-    color: #0001BE;
-}
-
-.formations-subtitle.esdamm a:hover span {
+.esdamm a:hover {
     background: -webkit-linear-gradient(45deg, #0001BE, #0AED2B);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+/* 
 .formations-subtitle.lacordaire a:hover {
     color: #3E0600;
-}
+} */
 
-.formations-subtitle.lacordaire a:hover span {
+/* .formations-subtitle.lacordaire a:hover span {
     background: -webkit-linear-gradient(45deg, #3E0600, #E06149, #E06149, #ECA555);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 
-.formations-subtitle.latransfo a:hover {
-    background: -webkit-linear-gradient(45deg, #FF7001, #FF7001, #612682, #440092, black);
+.latransfo a:hover {
+    background: -webkit-linear-gradient(45deg, #FF7001, #FF7001, #612682, #440092);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -180,7 +171,7 @@ header nav.sticky img {
     -webkit-text-fill-color: transparent;
 } */
 
-.formations-subtitle.ledschat a:hover {
+.ledschat a:hover {
     background: -webkit-linear-gradient(45deg, #118ab2 0%, #06d6a0 37%, #ffd166 50%, #ffec99 67%, #ff9999 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
