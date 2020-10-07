@@ -71,8 +71,8 @@ section {
 }
 
 #portfolio #transfo,
-#portfolio #lowtropy,
-#portfolio #backaround,
+#portfolio #lowtropy-port,
+#portfolio #backaround-port,
 #portfolio #ledschat,
 #portfolio #illustrations {
     background: rgb(245, 245, 245, 1);
@@ -84,12 +84,12 @@ section {
     transition: all 0.2s;
 }
 
-#portfolio #lowtropy:hover {
+#portfolio #lowtropy-port:hover {
     background: #29FD2F;
     transition: all 0.2s;
 }
 
-#portfolio #backaround:hover {
+#portfolio #backaround-port:hover {
     background: #1C9BF6;
     transition: all 0.2s;
 }
