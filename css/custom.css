@@ -17,14 +17,33 @@ section {
     margin: -30px 0;
 }
 
+.lowtropy #cv {
+    padding: 30px 0;
+    margin: -20px 0;
+}
+
+.lowtropy .cv {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
 #portfolio {
+    margin: -60px 0 0 0;
+    padding: 60px 0;
+}
+
+#lowtropy {
+    padding: 150px 0 250px 0;
+}
+
+.backaround #colors {
     margin: -60px 0 0 0;
     padding: 60px 0;
 }
 
 #colors {
     margin: -60px 0 0 0;
-    padding: 60px 0;
+    padding: 120px 0;
 }
 
 #text {
@@ -89,6 +108,15 @@ section {
     background-size: cover;
     background-color: rgb(245, 245, 245, 0);
     transition: all 0.7s ease;
+}
+
+.lowtropy .content {
+    padding-bottom: 15px;
+    margin: 15px 0;
+}
+
+.lowtropy .name {
+    margin-top: 0px;
 }
 
 header nav+p {
@@ -258,6 +286,11 @@ header nav.sticky img {
     background: -webkit-linear-gradient(45deg, #118ab2, #06d6a0, #ffd166, #ffec99, #ff9999, #ce4949, #612682, #118ab2, #06d6a0, #ffd166, #ffec99, #ff9999, #ce4949, #612682);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.lowtropy .cv a,
+.lowtropy .cv-bis a {
+    -webkit-text-fill-color: white;
 }
 
 .backaround .cv a,
@@ -525,7 +558,8 @@ header nav.sticky img {
 .backaround-bg {
     background-repeat: no-repeat;
     background-size: 120%;
-    background-position: -300px 800px;
+    background-position: 180px -60px;
+    background-attachment: fixed;
 }
 
 .ledschat .overlay {
