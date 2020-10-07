@@ -29,7 +29,7 @@
     }
 
     .mobile h1 {
-        font-size: 33px;
+        font-size: 28px;
         letter-spacing: 7px;
         text-align: center;
         margin: 0;
@@ -63,9 +63,9 @@
         font-size: 12px;
     }
 
-    /* p.sticky-margin {
-        display: none !important;
-    } */
+    p.sticky-margin {
+        line-height: 65px;
+    }
 
     #about {
         padding: 150px 0 0 0;
