@@ -324,6 +324,7 @@ header nav.sticky img {
     position: relative;
     display: inline-block;
     animation: marquee 30s linear infinite;
+    font-weight: bold;
 }
 
 .cv.second .marquee,
