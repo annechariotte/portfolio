@@ -1,0 +1,63 @@
+@media screen and (max-width: 759px) {
+    .navbar-nav.sections {
+        display: none;
+    }
+
+    .navbar-nav.social {
+        margin: 0 auto !important;
+    }
+
+    p.social a {
+        margin: 0 40px 0 0;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        margin: 5px;
+    }
+
+    .mobile h1 {
+        font-size: 19px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        margin: 0;
+    }
+
+    .mobile p {
+        font-size: 12px;
+        letter-spacing: 7px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: normal;
+        margin: 0;
+        padding-left: 3px;
+    }
+
+    p.item-end {
+        position: absolute;
+        top: -610px;
+        right: -130px;
+        z-index: -1;
+    }
+
+    #intro .row {
+        position: relative;
+    }
+
+    .about p {
+        padding-right: 0px;
+        font-size: 12px;
+    }
+
+    p.sticky-margin {
+        display: none !important;
+    }
+
+    #about {
+        padding: 150px 0;
+    }
+}
