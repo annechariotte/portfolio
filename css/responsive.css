@@ -87,6 +87,7 @@
 
     .cv .marquee,
     #maquettes div.cv .marquee {
+        width: 60%;
         animation: marqueeBis 35s linear infinite;
     }
 
