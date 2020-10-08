@@ -185,4 +185,18 @@
         padding-top: 80px;
     }
 
+    .site.mobile {
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .lowtropy .site a,
+    .lowtropy .github a {
+        color: black;
+    }
+
+    .lowtropy #maquettes {
+        padding: 10px 0 0px 0;
+    }
+
 }
