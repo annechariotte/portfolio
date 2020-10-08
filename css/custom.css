@@ -327,15 +327,6 @@ header nav.sticky img {
     font-weight: bold;
 }
 
-.cv.second .marquee,
-.cv.fourth .marquee {
-    animation: marqueeBis 29.2s linear infinite;
-}
-
-.cv.third .marquee {
-    animation: marqueeBis 28.4s linear infinite;
-}
-
 .cv-bis .marquee {
     width: 50%;
     white-space: nowrap;
@@ -346,15 +337,6 @@ header nav.sticky img {
 
 .marquee a {
     animation: swap 15s linear infinite;
-}
-
-.third.second a,
-.third.fourth a {
-    animation: swap 14s linear infinite;
-}
-
-.third.marquee a {
-    animation: swap 13s linear infinite;
 }
 
 @keyframes swap {

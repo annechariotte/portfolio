@@ -2275,3 +2275,8 @@ code {
     margin-left: 15px;
   }
 }
+
+#lightbox.lightbox {
+  top: 562px;
+  left: 0px;
+}

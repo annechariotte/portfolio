@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="css/custom.css">
+    <!-- Responsive stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/responsive.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/signature-min.png">
     <!-- Leaflet CSS - For the map-->
@@ -37,7 +39,7 @@
 
 <body class="lowtropy-bg lowtropy">
     <!-- intro-->
-    <section id="intro" class="intro name">
+    <section id="intro" class="intro name desktop">
         <div class="overlay"></div>
         <div class="content">
             <div class="container-90 clearfix">
@@ -55,14 +57,20 @@
     <!-- navbar-->
     <header class="header">
 
-        <nav class="navbar navbar-expand-lg p-0">
-            <div class="container"><a href="index.html" target="" class="navbar-brand link-scroll"><img
-                        class="singature" src="img/signature.png" alt="" class="img-fluid"></a>
+        <nav class="navbar navbar-expand p-0">
+            <div class="container">
+                <a href="index.html" target="" class="navbar-brand link-scroll desktop">
+                    <img class="singature" src="img/signature.png" alt="" class="img-fluid">
+                </a>
+
                 <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
-                    class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
+                    class="navbar-toggler navbar-toggler-right">
+                    <i class="fa fa-bars"></i>
+                </button>
+
                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto lowtropy">
+                    <ul class="navbar-nav ml-auto lowtropy desktop">
                         <li class="nav-item" id="low"><a href="#lowtropy" class="nav-link link-scroll">Lowtropy</a></li>
                         <li class="nav-item" id="char"><a href="#colors" class="nav-link link-scroll">Charte
                                 graphique</a></li>
@@ -70,11 +78,15 @@
                         </li>
                     </ul>
                 </div>
-                <p class="navbar-nav social ml-3 ">
+                <p class="navbar-nav social ml-3 desktop">
                     <a href="https://annechariotte.github.io/lowtropy/" target="_blank"
                         style="background-image: url(img/lowtropy/lowtropy-rond.png);" class="lowtropy-link">
                     </a>
                 </p>
+                <div class="col-12 mx-auto mobile">
+                    <h1 class="mobile">Lowtropy</h1>
+                    <p>Design d'interface</p>
+                </div>
             </div>
         </nav>
 
@@ -91,17 +103,17 @@
                     <div class="col-lg-4">
                         <h2 class="heading "></h2>
 
-                        <p class="">Création de la page d'accueil desktop / mobile de site e-commerce.<br>
+                        <p class="">Création de la page d'accueil desktop et mobile d'un site e-commerce.<br>
                             Le site propose la vente de trophées de chasse en papier de récupération. <br>
                             Il s’agit d’objets réalisés personnellement, me permettant ainsi une grande liberté sur
                             l'identité visuelle du site.</p>
 
-                        <p class="site mb-0">
+                        <p class="site mb-0 desktop">
                             <a href="https://annechariotte.github.io/lowtropy/" target="_blank">
                                 https://lowtropy/
                             </a>
                         </p>
-                        <p class="github mt-0">
+                        <p class="github mt-0 desktop">
                             <a href="https://github.com/annechariotte/lowtropy" target="_blank">
                                 https://github.com/lowtropy
                             </a>
@@ -112,13 +124,15 @@
                         style="background-image: url(img/lowtropy/lowtropy-desktop.gif), url(img/macbook.png);">
 
                     </div>
+                    <img src="img/lowtropy/bg-lowtropy.svg" alt="logo background" class="mobile">
+
                 </div>
             </div>
         </section>
         <!-- about end-->
 
         <!-- text page-->
-        <section id="colors" style="background-color: #E1FD34">
+        <section id="colors" style="background-color: #E1FD34" class="desktop">
             <div class="container">
 
                 <div class="row mb-5">
@@ -184,7 +198,65 @@
         <section id="maquettes" class="gallery">
             <div class="container clearfix">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="cv mob first">
+                        <!-- <p class="marquee-hover">Télécharger mon CV </p> -->
+                        <p class="marquee">
+                            <a href="img/lowtropy/lowtropy-recherche.png" data-lightbox="image-2"
+                                data-title="Planche de recherche" class="has-border">
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                            </a>
+                        </p>
+                    </div>
+                    <div class="cv mob second">
+                        <!-- <p class="marquee-hover">Télécharger mon CV </p> -->
+                        <p class="marquee">
+                            <a href="img/lowtropy/lowtropy-schema-desktop-haut.png" data-lightbox="image-2"
+                                data-title="Schéma HTML desktop" class="has-border">
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+
+                            </a>
+                        </p>
+                    </div>
+                    <div class="cv mob third">
+                        <!-- <p class="marquee-hover">Télécharger mon CV </p> -->
+                        <p class="marquee">
+                            <a href="img/lowtropy/lowtropy-schema-desktop-bas.png" data-lightbox="image-2"
+                                data-title="Schéma HTML desktop" class="has-border">
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                            </a>
+                        </p>
+                    </div>
+                    <div class="cv mob fourth">
+                        <!-- <p class="marquee-hover">Télécharger mon CV </p> -->
+                        <p class="marquee">
+                            <a href="img/lowtropy/lowtropy-responsive-haut.png" data-lightbox="image-2"
+                                data-title="Responsive mobil" class="has-border">
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                            </a>
+                        </p>
+                    </div>
+                    <div class="cv mob fifth">
+                        <!-- <p class="marquee-hover">Télécharger mon CV </p> -->
+                        <p class="marquee">
+                            <a href="img/lowtropy/lowtropy-responsive-bas.png" data-lightbox="image-2"
+                                data-title="Responsive mobil" class="has-border">
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                                Voir les maquettes Voir les maquettes Voir les maquettes Voir les maquettes
+                            </a>
+                        </p>
+                    </div>
+
+
+                    <div class="col-lg-12 desktop">
                         <!-- <div class="row">
                             <div class="col-md-12 col-lg-8">
                                 <h2 class="heading">Les maquettes</h2>
@@ -264,7 +336,7 @@
 
     <!-- footer-->
     <footer>
-        <section id="cv" class="text" style="background-color: #E1FD34;">
+        <section id="cv" class="text desktop" style="background-color: #E1FD34;">
             <div class="container">
                 <div class="row">
                     <div class="cv">
@@ -288,6 +360,7 @@
     <script src="vendor/lightbox2/js/lightbox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
     <script src="js/front.js"></script>
+
 </body>
 
 </html>
