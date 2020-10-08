@@ -319,6 +319,10 @@
         background-size: 482px, 640px;
     }
 
+    #about {
+        position: relative;
+    }
+
     p.item-end {
         top: -520px;
     }
