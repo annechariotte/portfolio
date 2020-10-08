@@ -102,16 +102,20 @@
         animation: marqueeBis 34s linear infinite;
     }
 
+    .marquee a {
+        animation: swap 30s linear infinite;
+    }
+
     .third.second a,
     .third.fourth a,
     #maquettes div.third.second a,
     #maquettes div.third.fourth a {
-        animation: swap 14s linear infinite;
+        animation: swap 30s linear infinite;
     }
 
     .third.marquee a,
     #maquettes div.third.marquee a {
-        animation: swap 13s linear infinite;
+        animation: swap 30s linear infinite;
     }
 
     div.social {
