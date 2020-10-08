@@ -87,7 +87,7 @@
 
     @keyframes marqueeBis {
         0% {
-            transform: translateX(-50%)
+            transform: translateX(-100%)
         }
 
         100% {
@@ -110,7 +110,7 @@
 
     .cv .marquee,
     #maquettes div.cv .marquee {
-        width: 50%;
+        width: 30%;
         white-space: nowrap;
         position: relative;
         display: inline-block;
