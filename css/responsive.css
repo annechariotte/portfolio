@@ -103,19 +103,19 @@
     }
 
     .marquee a {
-        animation: swap 35s linear infinite;
+        animation: swap 25s linear infinite;
     }
 
     .cv.second a,
     .cv.fourth a,
     #maquettes div.cv.second a,
     #maquettes div.cv.fourth a {
-        animation: swap 34.5s linear infinite;
+        animation: swap 24.5s linear infinite;
     }
 
     .cv.third a,
     #maquettes div.cv.third a {
-        animation: swap 34s linear infinite;
+        animation: swap 24s linear infinite;
     }
 
     div.social {
