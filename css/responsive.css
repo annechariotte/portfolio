@@ -162,9 +162,19 @@
     }
 
     #backaround,
+    #landing,
     #lowtropy {
         position: relative;
         padding: 150px 0 300px 0;
+    }
+
+    #landing {
+        padding: 0px 0 250px 0;
+        margin-bottom: 100px;
+    }
+
+    #backaround {
+        padding: 150px 0 0px 0;
     }
 
     .backaround .mcbook-bg,
@@ -173,6 +183,10 @@
         position: absolute;
         top: 0px;
         height: 100%;
+    }
+
+    .backaround .mcbook-bg {
+        background-position: center 400px, center bottom
     }
 
     .backaround .mcbook-bg,
@@ -197,6 +211,29 @@
 
     .lowtropy #maquettes {
         padding: 10px 0 0px 0;
+    }
+
+    .mockup-bg-1,
+    .mockup-bg-2,
+    .mockup-bg-3 {
+        background-repeat: no-repeat;
+        background-size: 250px;
+    }
+
+    .mockup-bg-1 {
+        background-position: -50% 0px;
+        height: 250px;
+        padding: 0;
+    }
+
+    .mockup-bg-2 {
+        background-position: 50% 0px;
+        height: 100%;
+    }
+
+    .mockup-bg-3 {
+        background-position: 150% 0px;
+        height: 100%;
     }
 
 }
