@@ -104,9 +104,10 @@
     }
 
     .marquee a {
-        animation: swap 25s linear infinite;
+        animation: swap 30s linear infinite;
     }
 
+    /* 
     .cv.second a,
     .cv.fourth a,
     #maquettes div.cv.second a,
@@ -117,7 +118,7 @@
     .cv.third a,
     #maquettes div.cv.third a {
         animation: swap 24s linear infinite;
-    }
+    } */
 
     div.social {
         display: flex;
