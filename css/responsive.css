@@ -107,7 +107,7 @@
     }
 
     .marquee a {
-        animation: swap 15s linear infinite;
+        animation: swap 35s linear infinite;
     }
 
     @keyframes marqueeBis {
