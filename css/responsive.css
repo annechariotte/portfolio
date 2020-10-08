@@ -180,7 +180,7 @@
         position: absolute;
         top: -90px;
         left: -70%;
-        width: 260%;
+        width: 970px;
         opacity: 0.3;
     }
 
@@ -261,5 +261,61 @@
 
     .backaround-bg {
         padding: 0 0 50px 0;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 815px) {
+
+    #lowtropy {
+        position: relative;
+        padding: 150px 0 600px 0;
+    }
+
+    .lowtropy .mcbook-bg {
+        background-position: center 570px, center bottom;
+    }
+
+    #backaround img {
+        position: absolute;
+        top: -50px;
+        left: 150px;
+    }
+
+    .mockup-bg-1,
+    .mockup-bg-2,
+    .mockup-bg-3 {
+        background-repeat: no-repeat;
+        background-size: 400px;
+    }
+
+    .mockup-bg-1 {
+        background-position: -20% 0px;
+        height: 400px;
+        padding: 0;
+    }
+
+    .mockup-bg-2 {
+        background-position: 50% 0px;
+        height: 100%;
+    }
+
+    .mockup-bg-3 {
+        background-position: 120% 0px;
+        height: 100%;
+    }
+
+    #landing {
+        height: 730px;
+        margin-bottom: 100px;
+    }
+
+    .backaround .mcbook-bg {
+        background-position: center 354px, center bottom;
+    }
+
+    .backaround .mcbook-bg,
+    .lowtropy .mcbook-bg {
+        background-repeat: no-repeat;
+        background-size: 525px, 700px;
     }
 }
