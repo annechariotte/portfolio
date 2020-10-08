@@ -288,20 +288,11 @@
         background-size: 400px;
     }
 
-    .mockup-bg-1 {
-        background-position: -20% 0px;
+    .mockup-bg-1,
+    .mockup-bg-2,
+    .mockup-bg-3 {
         height: 400px;
         padding: 0;
-    }
-
-    .mockup-bg-2 {
-        background-position: 50% 0px;
-        height: 100%;
-    }
-
-    .mockup-bg-3 {
-        background-position: 120% 0px;
-        height: 100%;
     }
 
     #landing {
