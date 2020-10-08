@@ -110,7 +110,7 @@
 
     .cv .marquee,
     #maquettes div.cv .marquee {
-        width: 60%;
+        width: 100%;
         white-space: nowrap;
         position: relative;
         display: inline-block;
