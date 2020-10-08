@@ -264,7 +264,7 @@
     }
 }
 
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 560px) and (max-width: 900px) {
 
     #lowtropy {
         position: relative;
