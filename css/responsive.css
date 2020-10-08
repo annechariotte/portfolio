@@ -87,19 +87,19 @@
 
     .cv .marquee,
     #maquettes div.cv .marquee {
-        animation: marqueeBis 30s linear infinite;
+        animation: marqueeBis 35s linear infinite;
     }
 
     .cv.second .marquee,
     .cv.fourth .marquee,
     #maquettes div.cv.second .marquee,
     #maquettes div.cv.fourth .marquee {
-        animation: marqueeBis 29.2s linear infinite;
+        animation: marqueeBis 34.5s linear infinite;
     }
 
     .cv.third .marquee,
     #maquettes div.cv.third .marquee {
-        animation: marqueeBis 28.4s linear infinite;
+        animation: marqueeBis 34s linear infinite;
     }
 
     .third.second a,
