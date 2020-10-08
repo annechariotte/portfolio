@@ -85,9 +85,35 @@
         margin-top: 0px;
     }
 
+    @keyframes marqueeBis {
+        0% {
+            transform: translateX(-100%)
+        }
+
+        100% {
+            transform: translateX(0%)
+        }
+    }
+
+    @keyframes swap {
+
+        0%,
+        50% {
+            right: 0%;
+        }
+
+        50.01%,
+        100% {
+            left: 0%;
+        }
+    }
+
     .cv .marquee,
     #maquettes div.cv .marquee {
         width: 60%;
+        white-space: nowrap;
+        position: relative;
+        display: inline-block;
         animation: marqueeBis 35s linear infinite;
     }
 
@@ -106,19 +132,6 @@
     .marquee a {
         animation: swap 30s linear infinite;
     }
-
-    /* 
-    .cv.second a,
-    .cv.fourth a,
-    #maquettes div.cv.second a,
-    #maquettes div.cv.fourth a {
-        animation: swap 24.5s linear infinite;
-    }
-
-    .cv.third a,
-    #maquettes div.cv.third a {
-        animation: swap 24s linear infinite;
-    } */
 
     div.social {
         display: flex;
