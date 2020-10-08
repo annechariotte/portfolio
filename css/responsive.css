@@ -85,29 +85,6 @@
         margin-top: 0px;
     }
 
-    @keyframes marqueeBis {
-        0% {
-            transform: translateX(-100%)
-        }
-
-        100% {
-            transform: translateX(100%)
-        }
-    }
-
-    @keyframes swap {
-
-        0%,
-        50% {
-            right: 0%;
-        }
-
-        50.01%,
-        100% {
-            left: 0%;
-        }
-    }
-
     .cv .marquee,
     #maquettes div.cv .marquee {
         width: 50%;
@@ -130,7 +107,30 @@
     }
 
     .marquee a {
-        animation: swap 30s linear infinite;
+        animation: swap 15s linear infinite;
+    }
+
+    @keyframes marqueeBis {
+        0% {
+            transform: translateX(-100%)
+        }
+
+        100% {
+            transform: translateX(100%)
+        }
+    }
+
+    @keyframes swap {
+
+        0%,
+        50% {
+            right: 0%;
+        }
+
+        50.01%,
+        100% {
+            left: 0%;
+        }
     }
 
     div.social {
