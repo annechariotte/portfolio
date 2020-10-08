@@ -87,10 +87,6 @@
 
     .cv .marquee,
     #maquettes div.cv .marquee {
-        width: 50%;
-        white-space: nowrap;
-        position: relative;
-        display: inline-block;
         animation: marqueeBis 35s linear infinite;
     }
 
@@ -107,30 +103,7 @@
     }
 
     .marquee a {
-        animation: swap 35s linear infinite;
-    }
-
-    @keyframes marqueeBis {
-        0% {
-            transform: translateX(-100%)
-        }
-
-        100% {
-            transform: translateX(0%)
-        }
-    }
-
-    @keyframes swap {
-
-        0%,
-        50% {
-            right: 0%;
-        }
-
-        50.01%,
-        100% {
-            left: 0%;
-        }
+        animation: swap 30s linear infinite;
     }
 
     div.social {
