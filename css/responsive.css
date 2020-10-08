@@ -154,6 +154,13 @@
         top: -80px;
     }
 
+    #backaround img {
+        position: absolute;
+        z-index: -1;
+        top: -80px;
+        right: -150px;
+    }
+
     .lowtropy .cv a,
     .lowtropy .cv-bis a {
         background: -webkit-linear-gradient(45deg, #29FD2F, #E1FD34, #29FD2F, #E1FD34, #29FD2F, #E1FD34);
