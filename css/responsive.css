@@ -148,6 +148,13 @@
         padding-bottom: 0;
     }
 
+    #backaround,
+    #landing,
+    #lowtropy {
+        position: relative;
+        padding: 150px 0 300px 0;
+    }
+
     #lowtropy img {
         position: absolute;
         z-index: -1;
@@ -168,12 +175,7 @@
         -webkit-text-fill-color: transparent;
     }
 
-    #backaround,
-    #landing,
-    #lowtropy {
-        position: relative;
-        padding: 150px 0 300px 0;
-    }
+
 
     #landing {
         padding: 0px 0 250px 0;
