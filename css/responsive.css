@@ -163,9 +163,10 @@
 
     #backaround img {
         position: absolute;
-        z-index: -1;
-        top: -80px;
-        right: -150px;
+        top: -90px;
+        left: -70%;
+        width: 260%;
+        opacity: 0.3;
     }
 
     .lowtropy .cv a,
@@ -175,15 +176,13 @@
         -webkit-text-fill-color: transparent;
     }
 
-
-
     #landing {
         padding: 0px 0 250px 0;
         margin-bottom: 100px;
     }
 
     #backaround {
-        padding: 150px 0 0px 0;
+        padding: 100px 0 0px 0;
     }
 
     .backaround .mcbook-bg,
@@ -245,4 +244,7 @@
         height: 100%;
     }
 
+    .backaround-bg {
+        padding: 0 0 50px 0;
+    }
 }
