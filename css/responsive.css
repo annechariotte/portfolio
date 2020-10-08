@@ -98,15 +98,15 @@
     } */
 
     #portfolio h2 {
-        font-size: 36px;
+        font-size: 34px;
         white-space: nowrap;
-        margin: 15px;
+        margin: 10px 15px;
     }
 
     #portfolio p {
         font-size: 12px;
         white-space: normal;
-        margin: -20px 15px 5px 15px;
+        margin: -15px 15px 10px 15px;
     }
 
     h2 span {
