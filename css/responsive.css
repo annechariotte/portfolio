@@ -91,7 +91,7 @@
         }
 
         100% {
-            transform: translateX(0%)
+            transform: translateX(100%)
         }
     }
 
@@ -110,7 +110,7 @@
 
     .cv .marquee,
     #maquettes div.cv .marquee {
-        width: 30%;
+        width: 50%;
         white-space: nowrap;
         position: relative;
         display: inline-block;
