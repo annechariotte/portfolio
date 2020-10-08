@@ -13,6 +13,17 @@ Bootstrapious Boilerplate Template
 * =====================
 *
 */
+
+@font-face {
+  font-family: "milk";
+  src: url("../assets/font/LEMONMILK-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "impact";
+  src: url("../assets/font/impact.ttf") format("truetype");
+}
+
 .text-bold {
   font-weight: 700;
 }
@@ -1311,7 +1322,7 @@ h6,
 .h5,
 .h6 {
   margin-bottom: 0.5rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "impact", Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 700;
   line-height: 1.44;
   color: inherit;
